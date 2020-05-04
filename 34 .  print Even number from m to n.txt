@@ -1,0 +1,138 @@
+/*   1   */
+
+
+package beginnerjava;
+
+public class Loop1Demo {
+    
+    public static void main(String[] args) {
+        
+        int sum=0;
+        
+        for (int i = 0; i <= 10; i++) {
+            
+            sum=sum + i;
+            
+        }
+        
+        System.out.println("Sum is "+sum);
+        
+        
+    }
+}
+
+
+
+
+/*  2 */
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class Loop1Demo {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int sum=0;
+        int m,n;
+        
+        System.out.println("Enter initial number ");
+        m=input.nextInt();
+        
+        System.out.println("Enter final number ");
+        n=input.nextInt();
+        
+        
+        for (int i = m; i <= n; i++) {
+            
+            sum=sum + i;
+            
+        }
+        
+        System.out.println("Sum is "+sum);
+        
+        
+    }
+}
+
+
+
+
+/* 3 */
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class Loop1Demo {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int sum=0;
+        int m,n;
+        
+        System.out.println("Enter initial number ");
+        m=input.nextInt();
+        
+        System.out.println("Enter final number ");
+        n=input.nextInt();
+        
+        
+        for (int i = m; i <= n; i++) {
+            
+            if(i%2==0)
+            {
+            sum=sum + i;
+            }
+        }
+        
+        System.out.println("Sum is "+sum);
+        
+        
+    }
+}
+
+
+
+
+/* 4 */
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class Loop1Demo {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int sum=0;
+        int m,n;
+        
+        System.out.println("Enter initial number ");
+        m=input.nextInt();
+        
+        System.out.println("Enter final number ");
+        n=input.nextInt();
+        
+        
+        for (int i = m; i <= n; i++) {
+            
+            if(i%2!=0)
+            {
+            sum=sum + i;
+            }
+        }
+        
+        System.out.println("Sum is "+sum);
+        
+        
+    }
+}
+

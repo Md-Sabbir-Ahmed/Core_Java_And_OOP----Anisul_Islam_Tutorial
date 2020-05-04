@@ -1,0 +1,346 @@
+/* vowel consonant */
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class VowelConsonantDemo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        char ch;
+        
+        System.out.print("Enter any letter ");
+        
+        ch=input.next().charAt(0);
+        
+        if(ch=='a' || ch=='e' || ch=='i'||ch=='o'||ch=='u')
+            {
+                System.out.println("Vowel");
+            }
+        else if (ch=='A' || ch=='E' || ch=='I'||ch=='O'||ch=='U')
+        {
+            System.out.println("Vowel");
+        }
+        
+        else
+        {
+            System.out.println("Consonant");
+        }
+    }
+}
+    
+    
+    
+    
+
+
+
+
+
+
+/*  capital small */
+
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class CapitalSmall {
+    
+    public static void main(String[] args) {
+        
+      Scanner input = new Scanner(System.in);  
+        
+      
+      char c ;
+      
+      System.out.print("Enter a character ");
+      c=input.next().charAt(0);
+       
+      
+      
+      if(c>='a' && c<='z')
+      {
+          System.out.println("Small Letter");
+      }
+     
+      else if(c>='A' && c<='Z')
+      {
+          System.out.println("Capital Letter");
+      }
+        
+      else
+          
+      {
+          System.out.println("Not a letter");
+      }
+      }
+      
+      
+    }
+    
+    
+
+
+
+/*  max min from 3 value */
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class MaxMinFrom3Value {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        int a,b,c;
+        
+        System.out.print ("Enter 3 numbers ");
+         
+        a=input.nextInt();
+        b=input.nextInt();
+        c=input.nextInt();
+        
+        {
+            if(a>b && a>c) 
+        {
+            System.out.println("Max= "+a);
+        }
+        else if(b>a && b>c)
+        {
+            System.out.println("Max= "+b);
+        }
+        else if(c>a && c>b)
+        {
+            System.out.println("Max= "+c);
+        }
+        }
+        
+        if(a<b && a<c)
+        {
+            System.out.println("Min= "+a);
+        }
+        else if(b<a && b<c)
+        {
+            System.out.println("Min= "+b);
+        }
+        else if(c<a && c<b)
+        {
+            System.out.println("Min= "+c);
+        }
+        else 
+        {
+            System.out.println("Equal");
+        }
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+/* leap year */
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class LeapYear {
+    
+    
+    public static void main(String[] args) {
+        
+        
+        Scanner input = new Scanner(System.in);
+        
+        int year;
+        
+        System.out.print("Enter any Year ");
+        year =  input.nextInt();
+        
+        if(year%400==0 || year%4==0 && year%100!=0)
+        {
+            System.out.println("Leap Year");
+        }
+        else
+        {
+            System.out.println("Not Leap Year");
+        }
+    }
+    
+    
+    
+}
+
+
+
+
+
+/* pass fail */
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class PassFail {
+    
+    
+    public static void main(String[] args) {
+        
+        
+        Scanner input = new Scanner(System.in);
+        
+        
+        int num;
+        System.out.print("Enter Mark ");
+        
+        num=input.nextInt();
+        
+        if(num>=40)
+        {
+            System.out.println("Pass");
+        }
+        
+        else 
+        {
+            System.out.println("Fail");
+        }
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+/* LETTER GRADE */  
+
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class LetterGrade {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);   
+        
+        int mark;
+        
+        System.out.print("Enter Mark ");
+        mark=input.nextInt();
+        
+        if(mark>100 || mark<0)
+        {
+            System.out.println("Invalid Number");
+        }
+        
+        else if(mark>=80 && mark <=100)
+        {
+            System.out.println("A+");
+        }
+        
+        else if(mark>=75 && mark<=79)
+        {
+            System.out.println("A");
+        }
+        
+        else if(mark>=70 && mark <=74)
+        {
+            System.out.println("A-");
+        }
+        
+        else if(mark>=65 && mark<=69)
+        {
+            System.out.println("B+");
+        }
+        
+        else if(mark>=60 && mark <=64)
+        {
+            System.out.println("B");
+        }
+        
+        else if(mark>=55 && mark<=59)
+        {
+            System.out.println("B-");
+        }
+        
+        else if(mark>=50 && mark <=54)
+        {
+            System.out.println("C+");
+        }
+        
+        else if(mark>=45 && mark<=49)
+        {
+            System.out.println("C");
+        }
+        
+        else if(mark>=40 && mark <=44)
+        {
+            System.out.println("D");
+        }
+        else
+        {
+            System.out.println("F");
+        }
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+

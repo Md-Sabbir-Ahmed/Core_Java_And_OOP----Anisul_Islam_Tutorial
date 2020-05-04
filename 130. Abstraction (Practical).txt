@@ -1,0 +1,102 @@
+/* 01 */
+
+
+package abstraction;
+
+public abstract class MobileUser {
+    
+    void call() // non- abstract method 
+    {
+        
+        System.out.println("call method"); 
+        
+    }
+    
+    
+    abstract void sendMessage();//abstract method
+    
+    abstract void recieve();//abstract method
+}
+
+
+
+/* 02 */
+
+
+package abstraction;
+
+public class Rahim extends MobileUser{
+    
+    
+    @Override
+    void sendMessage()
+    {
+        System.out.println("Hi, I am Rahim");
+    }
+    
+    
+   @Override
+   void recieve()
+   {
+       System.out.println("recieve Rahim");
+   }
+}
+
+
+
+
+/* 03 */
+
+
+package abstraction;
+
+
+public class Karim extends MobileUser {
+    
+   @Override
+   void sendMessage()
+   {
+       
+       System.out.println("Hi, I am Karim");
+
+   }
+   @Override
+   void recieve()
+   {
+       System.out.println("recieve Karim");
+   }
+}
+
+
+
+
+/* 04 */
+
+
+
+package abstraction;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        MobileUser mu ;// creating reference variable + object can't be created for abstract class
+        
+        mu = new Rahim();
+//MobileUser(super class) and it's "mu" (reference variable) refering Rahim (sub class) object
+        mu.sendMessage();
+        mu.call();
+        mu.recieve();
+        
+        
+        mu = new Karim();
+//MobileUser(super class) and it's "mu" (reference variable) refering Karim (sub class) object
+        mu.sendMessage();
+        mu.recieve();
+        
+    }
+}
+
+
+
+

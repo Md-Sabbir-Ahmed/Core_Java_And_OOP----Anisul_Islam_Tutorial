@@ -1,0 +1,56 @@
+/* 01 */
+
+
+
+package oop;
+
+public class Person {
+    
+    
+    String name ;
+    int age;
+    
+    Person(String name , int age)
+    {
+        this.name = name ;
+        this.age = age ;
+    }
+    
+    @Override// toString is a method of object class 
+    public String toString()
+    {
+         return "Name : "+name + "\nAge :"+age ;  
+    }
+}
+
+
+
+
+
+
+/* 02 */
+
+
+
+package oop;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Person p1 = new Person("Mizan",20);
+        Person p2 = new Person("Ahnaf",72);
+        
+        
+        System.out.println(p1);// by default will call toString method
+        System.out.println(p2);
+        
+        
+        
+    }
+}
+
+
+
+
+

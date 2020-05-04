@@ -1,0 +1,31 @@
+
+package datatype;
+
+public class DataType {
+
+    public static void main(String[] args) {
+        
+        
+       boolean b=true;
+       char c='a';
+       byte b1=127;
+       short s=32767;
+       int i=2147483647;
+       long L1=922337203685477587L;
+       float f=10.242f;
+       double d = 10.1;
+      
+       
+      
+       System.out.println("boolean = "+b);
+       System.out.println("character = "+c);
+       System.out.println("byte = "+b1);
+       System.out.println("short = "+s);
+       System.out.println("integer = "+i);
+       System.out.println("long = "+L1);
+       System.out.println("float = "+f);
+       System.out.println("double = "+d);
+        
+    }
+    
+}

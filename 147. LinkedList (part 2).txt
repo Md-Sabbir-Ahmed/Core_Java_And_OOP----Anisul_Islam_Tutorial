@@ -1,0 +1,38 @@
+
+package list;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+    
+    public static void main(String[] args) {
+        
+        LinkedList<String> countryNames = new LinkedList<> ();   
+        countryNames.add("Afganistan");
+        countryNames.add("Bangladesh");
+        countryNames.add("India");
+        countryNames.add("Brazil");
+        countryNames.add("Nepal");
+        countryNames.add(5, "France");
+        countryNames.addFirst("Australia");
+        countryNames.addLast("Japan");
+        countryNames.remove("Japan");
+        countryNames.remove(1);
+        countryNames.removeFirst();
+        countryNames.removeLast();
+        
+        
+        
+        for(String country : countryNames)
+        {
+            System.out.println(country);
+        }
+
+        System.out.println("Size of LinkedList : "+countryNames.size());
+        
+        System.out.println("First Element : "+countryNames.getFirst());
+        System.out.println("Last Element : "+countryNames.getLast());
+        countryNames.clear();
+        System.out.println(countryNames);
+    }
+}

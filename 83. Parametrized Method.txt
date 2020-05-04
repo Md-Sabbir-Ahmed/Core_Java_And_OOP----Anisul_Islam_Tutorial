@@ -1,0 +1,76 @@
+/* 1st part */
+
+
+
+package oop;
+
+public class Student {
+    
+    String name , gender  ;
+    int reg ;
+    
+    
+    void setInformation(String n , String m , int a)
+    {
+        name = n;
+        gender = m;
+        reg = a ;
+    }
+    
+    
+    
+    void displayInformation() 
+    {
+        System.out.println("Name :  "+name);
+        System.out.println("Gender : "+gender);
+        System.out.println("Reg : "+reg);
+        System.out.println("\n\n");
+
+    }
+    
+    
+}
+
+
+
+
+/* 2nd part */
+
+
+
+
+package oop;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Student student1 = new Student();  
+        Student student2 = new Student(); 
+        
+        
+        
+        student1.setInformation("Sabbir Ahmed","Male",46);
+        
+        System.out.println("Student 01: ");
+        student1.displayInformation();
+        
+       
+
+        student2.setInformation("Mizanur Rahman","Male",35);
+
+        System.out.println("Student 02: ");
+        student2.displayInformation();
+        
+        
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+

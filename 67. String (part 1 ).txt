@@ -1,0 +1,62 @@
+
+package string_package;
+
+import java.util.Arrays;
+
+public class StringDemo1 {
+    
+    public static void main(String[] args) {
+        
+        String s1= "Sabbir Ahmed";
+       
+        
+        String s2 = new String("Sabbir Ahmed"); 
+        
+        String s4 = "sabbir ahmed";
+        
+        char[] s3 = {'S','A','B','B','I','R'} ;
+
+        
+        System.out.println("s1 = "+s1);
+        System.out.println("s2 = "+s2);
+        System.out.println(s3);
+
+        
+        int len = s1.length();
+        System.out.println("Length of s1 = "+len);
+        
+        
+        //equals use 
+        if(s1.equals(s2))
+        {
+            System.out.println("Equals");
+            
+        }
+        else
+        {
+            System.out.println("Not Equals");
+        }
+        
+        //contains use 
+        boolean con = s1.contains("Sabb");
+
+        System.out.println(con);
+        
+        //equals ignore case
+        
+        if(s1.equalsIgnoreCase(s4))
+        {
+            System.out.println("Ignoring case it is equal");
+        }
+        else
+        {
+            System.out.println("Ignoring case it is not equal");
+
+        }
+        
+        boolean b= s1.isEmpty();
+        System.out.println("b = "+b);
+        
+        
+    }
+}

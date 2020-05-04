@@ -1,0 +1,90 @@
+/* 1st program */
+
+/* 1st part */
+
+
+package oop;
+
+
+public class CallByValue {
+    
+    
+    
+    void change (int i)
+    {
+
+               i =20;
+
+    }
+}
+
+
+/* 2nd part */
+
+
+package oop;
+
+public class CallValueTest {
+    
+    public static void main(String[] args) {
+        
+        CallByValue ob = new CallByValue();
+        int x=10;
+        System.out.println("x before call "+x);
+        
+        ob.change(x);
+        System.out.println("x after call "+x);
+
+    }
+}
+
+
+
+
+
+/* 2nd program */
+
+/* 1st part*/
+
+
+
+package oop;
+
+
+public class CallByReference {
+    
+    String name;
+    
+    void change (CallByReference r2)
+    {
+
+               r2.name = "Sabbir" ;
+               
+
+    }
+}
+
+
+
+
+/* 2nd part */
+
+
+
+
+package oop;
+
+public class CallValueTest {
+    
+    public static void main(String[] args) {
+        
+        CallByReference r1 = new CallByReference();
+        r1.name = "Mizan";
+        System.out.println("before call "+r1.name);
+        
+        r1.change(r1);
+        System.out.println("after call "+r1.name);
+
+    }
+}
+

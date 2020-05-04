@@ -1,0 +1,70 @@
+/* part 01 */
+
+
+
+package oop;
+
+public class Student {
+    
+    String name , gender  ;
+    int reg ;
+    
+    
+
+    Student (String p , String h , int s)
+    {
+        name=p;
+        gender=h;
+        reg=s;
+    }
+    
+    void displayInformation() 
+    {
+        System.out.println("Name :  "+name);
+        System.out.println("Gender : "+gender);
+        System.out.println("Reg : "+reg);
+        System.out.println("\n\n");
+
+    }
+    
+    
+}
+
+
+
+
+/* part 02 */
+
+
+
+
+
+package oop;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        
+        // constructor is  for to initialize objects
+        Student student1 = new Student("Sabbir Ahmed","Male",46); 
+
+        Student student2 = new Student("Mizanur Rahman","Male",35); 
+        
+        
+        
+        
+        System.out.println("Student 01: ");
+        student1.displayInformation();
+        
+       
+
+
+        System.out.println("Student 02: ");
+        student2.displayInformation();
+        
+        
+
+    }
+}
+

@@ -1,0 +1,316 @@
+/*  111111111111111 
+      int scaning
+*/
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+        int number;
+        System.out.print("Enter any number ");
+        
+        number= variable_name.nextInt();
+        
+        System.out.println("Number = "+number);
+    }
+}
+
+/*  22222222222222222  
+  string scanning with next(); 
+*/
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+        String name;
+        System.out.print("Enter your name = ");
+        
+        
+         name= variable_name.next();
+         
+        
+        
+        System.out.println("Name with next keyword = "+name);
+       
+        
+    }
+}
+
+
+
+/* 3333333333333333333 
+  string scanning with nextLine(); 
+*/
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+        String name;
+        System.out.print("Enter your name = ");
+        
+        
+         name= variable_name.nextLine();
+         
+        
+        
+        System.out.println("Name with nextLine keyword = "+name);
+       
+        
+    }
+}
+
+
+
+/* 44444444444444 
+ scanning double value 
+*/
+
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+       double num1;
+        System.out.print("Enter any double value = ");
+        
+        
+         num1=variable_name.nextDouble();
+         
+        
+        
+        System.out.println("The double value is = "+num1);
+       
+        
+    }
+}
+
+
+
+
+
+
+/* 5555555555555555
+ scanning byte value 
+*/
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+       byte a23;
+        System.out.print("Enter any byte value = ");
+        
+        
+         a23=variable_name.nextByte();
+         
+        
+        
+        System.out.println("The byte value is = "+a23);
+       
+        
+    }
+}
+
+
+
+
+
+
+/* 6666666666666
+ scanning boolean  
+*/
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+       boolean b78;
+        System.out.print("Enter true or false  = ");
+        
+        
+         b78=variable_name.nextBoolean();
+         
+        
+        
+        System.out.println("The boolean value is = "+b78);
+       
+        
+    }
+}
+
+
+
+
+/* 77777777777777
+ scanning float value 
+*/
+
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+       float c92;
+        System.out.print("Enter a float value  = ");
+        
+        
+         c92=variable_name.nextFloat();
+         
+        
+        
+        System.out.println("The float value is = "+c92);
+       
+        
+    }
+}
+
+
+
+
+/* 888888888888
+ scanning short value 
+*/
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+       short y87;
+        System.out.print("Enter a short value  = ");
+        
+        
+         y87=variable_name.nextShort();
+         
+        
+        
+        System.out.println("The short value is = "+y87);
+       
+        
+    }
+}
+
+
+
+
+/* 999999999999
+ scanning long value 
+*/
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+       long  r78;
+        System.out.print("Enter a short value  = ");
+        
+        
+         r78=variable_name.nextLong();
+         
+        
+        
+        System.out.println("The short value is = "+r78);
+       
+        
+    }
+}
+
+
+
+
+
+/* taking char */
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class InputDemo {
+    
+    
+    public static void main(String[] args) {
+        Scanner variable_name =new Scanner(System.in);
+        
+       char w32;
+        System.out.print("Enter a character  = ");
+        
+        
+         w32=variable_name.next().charAt(0);
+         
+        
+        
+        System.out.println("The character is = "+w32);
+       
+        
+    }
+}

@@ -1,0 +1,206 @@
+/*   triangle *?/
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class Problems {
+    
+    
+     public static void main(String[] args) {
+         
+         Scanner input = new Scanner(System.in);
+        double base , height;
+        double area;
+        System.out.print("Enter base : ");
+        base=input.nextDouble();
+        
+        System.out.print("Enter height : ");
+        height=input.nextDouble();
+        area= 0.5*base*height;
+        System.out.println("Area of Triangle is :"+area);
+    }
+    
+}
+
+
+
+
+
+/*  circle */
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class CircleDemo {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        double radius,area;
+        
+        System.out.print("Enter radius ");
+        
+        radius = input.nextDouble();
+        area = 3.1416 * radius * radius ;
+        
+        System.out.println("Area of Circle is : "+area);
+        
+    }
+}
+
+
+
+
+
+/* Area & Perimeter of Rectangle */
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class RectangleDemo {
+    
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        double length , width ,area ,perimeter;
+        
+        System.out.print("Enter length :");
+        
+        length=input.nextDouble();
+        
+        System.out.print("Enter width :");
+        
+        width=input.nextDouble();
+        
+        area= length * width ;
+        perimeter = 2* (length + width);
+        System.out.println("Area of Rectangle "+area);
+        System.out.println("Perimeter of Rectangle "+perimeter);
+        
+    }
+    
+    
+}
+
+
+
+
+
+/* Area & Perimeter of Square */
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class SquareDemo {
+    
+    
+    public static void main(String[] args){
+    
+    Scanner input = new Scanner(System.in);
+    double length ,area,perimeter;
+    
+    System.out.print("Enter Length of side ");
+    length= input.nextDouble();
+    
+    area= length *length ;
+    perimeter = 4 * length ;
+    
+    System.out.println("Area of Square "+area);
+    System.out.println("Perimeter of Square "+perimeter);
+    
+}
+}
+
+
+
+
+/* perimeter of triangle */
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class TrianglePerimeter {
+    
+    public static void main(String[] args) {
+        
+        Scanner input= new Scanner(System.in);
+        
+        double a,b,c, perimeter;
+         System.out.print("Enter a ");
+         a=input.nextDouble();
+         
+         
+         System.out.print("Enter b ");
+         b =input.nextDouble();
+         
+         System.out.print("Enter c ");
+         c =input.nextDouble();
+         
+         perimeter= a+b+c;
+         
+         System.out.println("Perimeter of Triangle "+perimeter);
+        
+    }
+    
+}
+
+
+
+
+/* perimeter of circle */
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class CirclePerimeter {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        double radius , perimeter ;
+        
+        System.out.print("Enter radius ");
+        radius = input.nextDouble();
+        
+        perimeter = 2 * 3.1416 * radius ;
+        
+        System.out.println("Perimeter of Circle "+perimeter);
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
+

@@ -1,0 +1,54 @@
+/* 1st part */
+
+
+package oop;
+
+public class Student {
+    
+    String name , gender  ;
+    int reg ;
+    
+    }
+
+/* 2nd part */
+
+
+
+package oop;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Student student1 = new Student(); // object declare + create 
+        Student student2 = new Student(); // object declare + create 
+        
+        
+        
+        student1.name= "Sabbir Ahmed ";
+        student1.gender = "Male";
+        student1.reg = 46;
+        
+        System.out.println("Student 01: ");
+        System.out.println("Name : "+student1.name);
+        System.out.println("Gender : "+student1.gender);
+        System.out.println("Reg : "+student1.reg);
+        
+        student2.name= "Mizanur Rahman";
+        student2.gender = "Male";
+        student2.reg = 35;
+                
+        System.out.println("\n\n");
+        System.out.println("Student 02: ");
+        System.out.println("Name : "+student2.name);
+        System.out.println("Gender : "+student2.gender);
+        System.out.println("Reg : "+student2.reg);
+        
+        
+        
+        
+        
+        
+        
+    }
+}

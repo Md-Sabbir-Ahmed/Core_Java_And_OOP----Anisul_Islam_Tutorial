@@ -1,0 +1,59 @@
+/* 01 */
+
+
+
+package super_keyword;
+
+public class A {
+    
+    int x  =10;
+    
+}
+
+
+
+/* 02 */
+
+
+
+package super_keyword;
+
+
+public class B extends A {
+    
+    int x = 5 ;
+    
+    
+    void display ()
+    {
+        // sub class x value print 
+        System.out.println(x); 
+        // super class x value print
+        System.out.println(super.x);
+    }
+    
+}
+
+
+
+
+
+/* 03 */
+
+
+package super_keyword;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        
+        B ob = new B();
+        
+        
+        ob.display();
+    }
+}
+
+

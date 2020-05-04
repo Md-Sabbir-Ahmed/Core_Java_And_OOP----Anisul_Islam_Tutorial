@@ -1,0 +1,127 @@
+/* 01 */
+
+
+package oop;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+      
+        int x = 10 ;
+        double y = x;// widening  / implicit type casting 
+        
+        System.out.println(y);
+         
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+/* 02 */
+
+
+
+
+package oop;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+      
+        double y = 10.5;
+        int x = (int) y ; // narrowing / explicit type casting 
+        
+        System.out.println(x);
+         
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+/* 03 */
+
+
+
+
+package oop;
+
+
+public class Person {
+    
+    
+    void display()
+    {
+        System.out.println("Person class");
+    }
+}
+
+
+
+
+
+/* 04 */
+
+
+package oop;
+
+
+public class Teacher extends Person {
+       
+    @Override
+    void display()
+    {
+        System.out.println("Teacher class");
+    }
+}
+
+
+
+
+
+/* 05 */
+
+
+
+
+package oop;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+      
+    
+        Person p = new Teacher();
+// upcasting 
+//Person(super class) refering Teacher(sub class) object
+        
+        p.display();
+         
+        Teacher t = (Teacher) new Person() ;
+//downcasting
+//Teacher(sub class) refering Person(super class) object , which is not possible 
+// this statement will show run time error
+        t.display(); 
+        
+    }
+    
+    
+    
+}
+

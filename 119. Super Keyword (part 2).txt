@@ -1,0 +1,54 @@
+/* 01 */
+
+
+package super_keyword;
+
+public class A {
+    
+   void display()
+   {
+       System.out.println("Inside A class");
+   }
+    
+}
+
+
+/* 02 */
+
+
+package super_keyword;
+
+
+public class B extends A {
+    
+  
+    @Override
+    void display()
+   {
+       super.display();
+       System.out.println("Inside B class");
+   }
+    
+    
+}
+
+
+
+
+/* 03 */
+
+
+package super_keyword;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        B ob = new B();
+        
+        ob.display();
+    }
+}
+
+

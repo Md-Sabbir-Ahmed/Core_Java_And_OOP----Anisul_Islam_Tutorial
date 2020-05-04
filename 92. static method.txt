@@ -1,0 +1,46 @@
+/* 01 */
+
+
+
+package static_method;
+
+
+public class StaticMethod {
+    
+   // non-static method 
+
+    void display1()
+    {
+        System.out.println("I am not static method ");
+    }
+       
+  // static method 
+
+       static void display2()
+    {
+        System.out.println("I am  static method ");
+    }
+}
+
+
+/* 02 */
+
+
+
+package static_method;
+
+public class Test {
+    
+    public static void main(String[] args)
+    //  main method is declared as static  because 
+            // there is no need to create object for static method 
+ {
+        
+        //instance / non-static method
+        StaticMethod ob1 = new StaticMethod();
+        ob1.display1();
+        
+        // static method 
+        StaticMethod.display2();
+    }
+}

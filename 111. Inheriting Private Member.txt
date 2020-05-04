@@ -1,0 +1,91 @@
+/* 01 */
+
+
+package inheritance;
+
+
+public class Person {
+    
+  private String name ;
+  private int age ;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+    
+    
+ 
+}
+
+
+
+
+
+/* 02 */
+
+
+
+package inheritance;
+
+
+public class Teacher extends Person{
+    
+        
+
+    private String qualification ;
+
+    public String getQualification() {
+        return qualification;
+    }
+
+    public void setQualification(String qualification) {
+        this.qualification = qualification;
+    }
+    
+    
+        void displayInformation ()
+        {
+          System.out.println(getName());
+          System.out.println(getAge());
+          System.out.println( getQualification());
+        }
+        
+    }
+
+
+
+/* 03 */
+
+
+package inheritance;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Teacher t1 = new Teacher ();
+        
+        t1.setName("Mizan");
+        t1.setAge(20);
+        t1.setQualification("HSC Graduate");
+        
+        
+        t1.displayInformation();
+        
+        
+    }
+}
+
+

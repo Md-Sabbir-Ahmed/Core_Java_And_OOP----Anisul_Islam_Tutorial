@@ -1,0 +1,72 @@
+/* 01 */
+
+
+package method_overriding;
+
+public class Person {
+    
+    String name ;
+    int age ;
+    
+    
+    void displayInformation()
+    {
+        System.out.println(name);
+        System.out.println(age);
+    }
+    
+}
+
+
+
+/* 02 */
+
+
+package method_overriding;
+
+public class Teacher extends Person {
+
+    String qualification;
+
+    @Override
+    void displayInformation() {
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(qualification);
+    }
+
+}
+
+
+
+
+/* 03 */
+
+
+
+
+package method_overriding;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Teacher t1 = new Teacher();
+        
+        t1.name = "Mizan";
+        t1.age = 20 ;
+        t1.qualification = "HSC Graduate";
+        t1.displayInformation();
+        
+        System.out.println("\n\n");
+        
+        
+        
+        Person p1 = new Person();
+        
+        p1.name = "Sabbir";
+        p1.age = 20 ;
+        p1.displayInformation();
+    }
+}
+

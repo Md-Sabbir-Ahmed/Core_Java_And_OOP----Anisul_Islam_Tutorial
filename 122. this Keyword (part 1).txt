@@ -1,0 +1,59 @@
+/* 01 */
+
+
+package this_keyword;
+
+public class Person {
+    
+    String name;
+    int age ;
+    String hairColor;
+    
+  
+    Person(String name , int age)
+    {
+        this.name = name;
+        this.age = age;
+    }
+    
+    
+    Person(String name , int age , String hairColor)
+    {
+      
+        this(name , age);
+        this.hairColor = hairColor ; 
+    }
+    
+    
+    void display()
+    {
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(hairColor);
+        System.out.println("\n\n");
+    }
+}
+
+
+
+
+/* 02 */
+
+
+package this_keyword;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Person p1 = new Person("Sabbir",20);
+        
+        p1.display(); 
+        
+        
+        Person p2 = new Person("Ahnaf",20,"Black");
+        
+        p2.display(); 
+    }
+}
+

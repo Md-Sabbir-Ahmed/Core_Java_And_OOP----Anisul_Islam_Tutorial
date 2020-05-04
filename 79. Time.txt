@@ -1,0 +1,24 @@
+
+package time_demo;
+
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
+public class CurrentTime {
+    public static void main(String[] args) {
+        
+        //using LocalTime class
+        
+        LocalTime time =  LocalTime.now();
+        System.out.println(time);
+        
+        // user choice style
+        
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm:ss");
+        
+        String formattedtime = time.format(formatter);
+        System.out.println(formattedtime);
+        
+    }
+    
+}

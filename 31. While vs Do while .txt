@@ -1,0 +1,60 @@
+/* while */
+
+package beginnerjava;
+
+
+public class WhileLoop {
+    
+    public static void main(String[] args) {
+        
+        
+        int i=6;
+        
+        while(i<=5)
+        {
+            
+            System.out.println("Hello");
+            i++;
+            
+        }
+        
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+/* do while */
+
+
+package beginnerjava;
+
+
+public class DoWhileLoop {
+    
+    public static void main(String[] args) {
+        
+        
+        int i=6;
+        
+        do{
+            
+            System.out.println("Hello");
+            i++;
+            
+        }while(i<=5);
+        
+        
+        
+        
+        
+        
+    }
+}

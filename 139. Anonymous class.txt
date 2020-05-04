@@ -1,0 +1,44 @@
+/ * 01 */
+
+
+package oop;
+
+
+public class Person {
+    
+    
+    void display()
+    {
+        System.out.println("Person class");
+    }
+}
+
+
+
+/* 02 */
+
+
+
+package oop;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Person p = new Person()
+// while creating a Person class object we have created a Anonymous class 
+//Anonymous class doesn't contain any name 
+        {
+            @Override
+            void display()
+            {
+                System.out.println("Test class");
+            }
+            
+        } ;
+        
+        p.display();
+        
+        
+    }
+}

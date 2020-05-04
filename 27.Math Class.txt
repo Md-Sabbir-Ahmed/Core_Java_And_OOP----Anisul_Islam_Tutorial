@@ -1,0 +1,40 @@
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class MathClass {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        double   a , b ;
+         
+        a=input.nextDouble();
+        b=input.nextDouble();
+        
+        System.out.println("Maximum "+Math.max(a, b));// maximum finding
+        
+        System.out.println("Minimum "+Math.min(a, b));//minimum finding
+        
+        System.out.println("Power "+Math.pow(a, b)); // power finding
+        
+        System.out.println("Absolute of b "+Math.abs(b));//absolute finding
+        
+        System.out.println("Round of a "+Math.round(a));//round finding
+        
+        System.out.println("Value of Pi is "+Math.PI); // pi value
+        
+        System.out.println("Square root "+Math.sqrt(a));//square
+        
+        System.out.println("Tangent Angle "+Math.tan(b)); //tangent angle
+        
+        System.out.println("Tangent Inverse Angle "+Math.atan(b));
+        
+        System.out.println("Degree to Radian "+Math.toRadians(a));
+        
+        System.out.println("Cube root "+Math.cbrt(a));        
+        
+    }
+}

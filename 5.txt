@@ -1,0 +1,20 @@
+package basicjava;
+
+
+public class BoiData {
+    
+    public static void main(String[] args)
+    {
+    
+     System.out.println("Sabbir\b\b\b");
+     System.out.println("Sabbir\t46");
+     System.out.print("Sabbir\n245"); 
+     System.out.println("Sabbir\r245"); 
+     System.out.println("\"Sabbir Ahmed\"");
+     System.out.println("\'Sabbir\'"); 
+     System.out.println("\\Sabbir\\");
+ 
+     
+    
+    }
+}

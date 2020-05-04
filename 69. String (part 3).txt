@@ -1,0 +1,41 @@
+package string_package;
+
+import java.util.Arrays;
+
+public class StringDemo3 {
+    
+    public static void main(String[] args) {
+ 
+        String country = "     Bangladesh is my    country    ";
+        System.out.println(country);
+        
+        //removing first and last  spaces 
+        
+        String s3= country.trim();
+        System.out.println(s3);
+        
+        //character at perticular index
+        char ch= country.charAt(0);
+        System.out.println("ch = "+ch);
+        
+        //ascii value of particular index
+        
+        int value = country.codePointAt(0);
+        System.out.println("value = "+value);
+        
+        //first 'n' index number
+        
+        int pos = country.indexOf('n');
+        System.out.println("first position of n = "+pos);
+        
+        // last 'n' index number
+        
+        pos=country.lastIndexOf('n');
+        System.out.println("last position of n = "+pos);
+        
+        
+        
+        
+        
+    }
+}

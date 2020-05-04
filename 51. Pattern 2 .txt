@@ -1,0 +1,3026 @@
+/*  1 */
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern2Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row >=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+            
+                System.out.print(" "+col);
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+    }
+}
+
+
+
+/* 2 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern2Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row >=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+            
+                System.out.print(" "+row);
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+    }
+}
+
+
+
+/* 3 */
+
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern2Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row >=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+            
+                System.out.print(" "+col%2);
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+    }
+}
+
+
+
+/* 4 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern2Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row >=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+            
+                System.out.print(" "+row%2);
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+    }
+}
+
+
+
+/* 5  */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern2Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row >=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+            
+                System.out.print(" "+(char)(col+64));
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+    }
+}
+
+
+
+/* 6 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern2Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row >=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+            
+                System.out.print(" "+(char)(row+64));
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+    }
+}
+
+
+
+
+/* 7 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern3Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+col);
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+col);
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+
+/* 8 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern3Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+row);
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+row);
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+/* 9 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern3Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+(char)(col+64));
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+(char)(col+64));
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+/* 10 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern3Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+(char)(row+64));
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+(char)(row+64));
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+/* 11 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern3Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print("*");
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print("*");
+            }
+            
+            System.out.println();
+      
+        }
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+/* 12 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern4Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(""+col);
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+        
+     
+
+        
+        
+     
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+/* 13 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern4Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(""+row);
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+        
+     
+
+        
+        
+     
+        
+        
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+
+/* 14 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern4Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(col%2);
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+
+
+/* 15 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern4Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(row%2);
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+/* 16 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern4Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print((char)(col+64));
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+
+/* 17 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern4Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print((char)(row+64));
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+/* 18 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern5Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(col);
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+
+/* 19 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern5Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(row);
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+/* 20 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern5Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(col%2);
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+/* 21 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern5Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(row%2);
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+/* 22 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern5Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print((char)(col+64));
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+
+/* 23 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern5Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = n; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print((char)(row+64));
+
+            }
+            
+            System.out.println();
+      
+
+      
+        }
+        
+    }
+}
+
+
+
+
+
+/* 24 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern6Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(col);
+
+            }
+            
+            System.out.println();
+            
+      
+        }
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(col);
+
+            }
+            
+            
+            System.out.println();
+      
+        }
+        
+    }
+    }
+
+
+
+
+
+
+
+
+/* 25 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern6Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(row);
+
+            }
+            
+            System.out.println();
+            
+      
+        }
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(row);
+
+            }
+            
+            
+            System.out.println();
+      
+        }
+        
+    }
+    }
+
+
+
+
+
+
+/* 26 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern6Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print((char)(col+64));
+
+            }
+            
+            System.out.println();
+            
+      
+        }
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print((char)(col+64));
+
+            }
+            
+            
+            System.out.println();
+      
+        }
+        
+    }
+    }
+
+
+
+
+
+
+/* 27 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern6Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print((char)(row+64));
+
+            }
+            
+            System.out.println();
+            
+      
+        }
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print((char)(row+64));
+
+            }
+            
+            
+            System.out.println();
+      
+        }
+        
+    }
+    }
+
+
+
+
+
+
+/* 28 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern6Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print("*");
+
+            }
+            
+               System.out.println();
+            
+      
+        }
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print("*");
+
+            }
+            
+            
+            System.out.println();
+      
+        }
+        
+    }
+    }
+
+
+
+
+
+
+/* 29 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern7Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n; col++) {
+                
+                System.out.print("*");
+
+            }
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+
+/* 30 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern7Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n; col++) {
+                
+                System.out.print(row);
+
+            }
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 31 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern7Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n; col++) {
+                
+                System.out.print(col);
+
+            }
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 32 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern7Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n; col++) {
+                
+                System.out.print((char)(row+64));
+
+            }
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+/* 33 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern7Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n; col++) {
+                
+                System.out.print((char)(col+64));
+
+            }
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 34 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern8Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=row; col++) {
+                
+                System.out.print(" "+row*col);
+
+            }
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 35 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern9Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print("*");
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 36 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern9Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print(row);
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+
+
+/* 37 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern9Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print(col);
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+
+/* 38 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern9Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print((char)(row+64));
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 39 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern9Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row = 1; row<=n; row++) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print((char)(col+64));
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 40 */
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern9Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row =n; row>=1; row--) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print("*");
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+/* 41*/
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern10Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row =n; row>=1; row--) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print(row);
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 42*/
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern10Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row =n; row>=1; row--) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print(col);
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 43*/
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern10Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row =n; row>=1; row--) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print((char)(row+64));
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+
+/* 44*/
+
+
+
+package oop;
+
+import java.util.Scanner;
+
+
+public class Pattern10Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n=input.nextInt();
+        
+        for (int row =n; row>=1; row--) {
+
+            for (int col = 1; col <=n-row; col++) {
+                
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print((char)(col+64));
+
+            }
+            
+         
+            
+               System.out.println();
+            
+      
+        }
+
+        
+    }
+    }
+
+
+
+
+/*45 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern11Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n-row; col++) {
+                
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+        
+    }
+}
+
+
+
+/*46 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern11Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n-row; col++) {
+                
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print(row);
+            }
+            System.out.println();
+        }
+        
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print(row);
+            }
+            System.out.println();
+        }
+        
+        
+    }
+}
+
+
+
+
+
+/*47 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern11Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n-row; col++) {
+                
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+        
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+        
+        
+    }
+}
+
+
+
+
+/*48 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern11Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n-row; col++) {
+                
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print((char)(col+64));
+            }
+            System.out.println();
+        }
+        
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print((char)(col+64));
+            }
+            System.out.println();
+        }
+        
+        
+    }
+}
+
+
+
+
+
+/*49 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern11Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n-row; col++) {
+                
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print((char)(row+64));
+            }
+            System.out.println();
+        }
+        
+        
+        
+        for (int row = n-1; row>=1; row--) {
+            
+            for (int col = 1; col <=n-row; col++) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col <=2*row-1; col++) {
+                
+                System.out.print((char)(row+64));
+            }
+            System.out.println();
+        }
+        
+        
+    }
+}
+
+
+
+
+
+/*50 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern12Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n; col++) {
+                
+                if(row==1||row==n||col==1||col==n)
+                {
+                    System.out.print("*");
+                }
+                
+                else
+                {
+                    System.out.print(" ");
+                }
+                
+              
+            }
+                 System.out.println();
+
+            }
+           
+        }
+        
+
+        
+    
+}
+
+
+
+/*51 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern13Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n; col++) {
+                
+                if(row==n||col==1||col==row)
+                {
+                    System.out.print("*");
+                }
+                
+                else
+                {
+                    System.out.print(" ");
+                }
+                
+              
+            }
+                 System.out.println();
+
+            }
+           
+        }
+        
+
+        
+    
+}
+
+
+
+
+
+
+/*52 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern14Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n; col++) {
+                
+                if(row>col)
+                {
+                    System.out.print("0");
+                }
+                
+                else if(row<col)
+                {
+                    System.out.print("1");
+                }
+                
+                else
+                {
+                    System.out.print("2");
+                }
+              
+            }
+                 System.out.println();
+
+            }
+           
+        }
+        
+
+        
+    
+}
+
+
+
+
+
+/*53 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern15Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n; col++) {
+                
+                if(row==col||row+col==n+1)
+                {
+                    System.out.print("*");
+                }
+                
+
+                
+                else
+                {
+                    System.out.print(" ");
+                }
+              
+            }
+                 System.out.println();
+
+            }
+           
+        }
+        
+
+        
+    
+}
+
+
+
+
+
+
+/*54 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern16Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        int count=0;
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=row; col++)
+            {
+                count=count+1;
+                 System.out.print(count);
+              
+            }
+                 System.out.println();
+
+            }
+           
+        }
+   
+}
+
+
+
+
+
+/*55 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern17Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n-row; col++)
+            {
+                System.out.print(" ");
+              
+            }
+            
+            for (int col = 1; col <=row; col++)
+            {
+                
+                System.out.print(col);
+            }
+                 
+
+             for (int col = row-1; col>=1; col--) 
+            {
+                
+                 System.out.print(col);
+            }
+    
+                 System.out.println();
+                 
+                 
+           }
+
+
+           
+        }
+   
+}
+
+
+
+
+/*56 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern17Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n-row; col++)
+            {
+                System.out.print(" ");
+              
+            }
+            
+            for (int col = 1; col <=row; col++)
+            {
+                
+                System.out.print((char)(col+64));
+            }
+                 
+
+             for (int col = row-1; col>=1; col--) 
+            {
+                
+                 System.out.print((char)(col+64));
+            }
+    
+                 System.out.println();
+                 
+                 
+           }
+
+
+           
+        }
+   
+}
+
+
+
+
+/*57 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern18Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=n;row>=1;row--){
+            
+            for (int col =1 ; col <=n-row; col++)
+            {
+                System.out.print(" ");
+              
+            }
+            
+            for (int col = 1; col <=row; col++)
+            {
+                
+                System.out.print(col);
+            }
+                 
+
+             for (int col = row-1; col>=1; col--) 
+            {
+                
+                 System.out.print(col);
+            }
+    
+                 System.out.println();
+                 
+                 
+           }
+
+
+           
+        }
+   
+}
+
+
+
+
+
+/*58 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern19Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+        
+        for(int row=1;row<=n;row++){
+            
+            for (int col =1 ; col <=n-row; col++)
+            {
+                System.out.print(" ");
+              
+            }
+            
+            for (int col = 1; col <=row; col++)
+            {
+                
+                System.out.print(col);
+            }
+                 
+
+             for (int col = row-1; col>=1; col--) 
+            {
+                
+                 System.out.print(col);
+            }
+    
+                 System.out.println();
+                 
+                 
+           }
+        
+        for(int row=n-1;row>=1;row--){
+            
+            for (int col =1 ; col <=n-row; col++)
+            {
+                System.out.print(" ");
+              
+            }
+            
+            for (int col = 1; col <=row; col++)
+            {
+                
+                System.out.print(col);
+            }
+                 
+
+             for (int col = row-1; col>=1; col--) 
+            {
+                
+                 System.out.print(col);
+            }
+    
+                 System.out.println();
+                 
+                 
+           }
+
+
+           
+        }
+   
+}
+
+
+
+
+/*59 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern20Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+
+        
+        
+        for (int row = 1; row <=n; row++) {
+            
+            for (int col = 1; col <=n; col++) {
+                
+                if((n/2)+1==row || (n/2)+1==col)
+                {
+                    System.out.print("X");
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            }
+            
+            System.out.println();
+            
+        }
+
+
+}
+}
+
+
+
+
+
+/*60 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern21Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+
+        
+        
+        for (int row =1; row<=n; row++) {
+            
+            for (int col =n; col>=row; col--) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col < row*2; col++) {
+                if(col>1 && col<(row*2)-1)
+                {
+                    System.out.print(" ");
+                }
+                else
+                {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+            
+            
+        }
+
+}
+}
+
+
+
+
+
+/*61 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern21Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+
+        
+        
+        for (int row =1; row<=n; row++) {
+            
+            for (int col =n; col>=row; col--) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col < row*2; col++) {
+                if(col>1 && col<(row*2)-1)
+                {
+                    System.out.print(" ");
+                }
+                else
+                {
+                    System.out.print((char)(row+64));
+                }
+            }
+            System.out.println();
+            
+            
+        }
+
+}
+}
+
+
+
+
+/*62 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern22Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+
+        
+        
+        for (int row =n; row>=1; row--) {
+            
+            for (int col =n; col>=row; col--) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col < row*2; col++) {
+                if(col>1 && col<(row*2)-1)
+                {
+                    System.out.print(" ");
+                }
+                else
+                {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+            
+            
+        }
+
+}
+}
+
+
+
+
+
+
+
+
+/*63 */
+package OOP;
+
+import java.util.Scanner;
+
+public class Pattern23Demo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter line number ");
+        int n= input.nextInt();
+        
+
+             for (int row =1; row<=n; row++) {
+            
+            for (int col =n; col>=row; col--) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col < row*2; col++) {
+                if(col>1 && col<(row*2)-1)
+                {
+                    System.out.print(" ");
+                }
+                else
+                {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+            
+            
+        }
+        
+        for (int row =n-1; row>=1; row--) {
+            
+            for (int col =n; col>=row; col--) {
+                System.out.print(" ");
+            }
+            
+            for (int col = 1; col < row*2; col++) {
+                if(col>1 && col<(row*2)-1)
+                {
+                    System.out.print(" ");
+                }
+                else
+                {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+            
+            
+        }
+
+}
+}
+
+
+

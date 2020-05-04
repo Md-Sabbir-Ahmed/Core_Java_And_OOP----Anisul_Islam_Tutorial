@@ -1,0 +1,87 @@
+/* Vehicle */
+
+
+package super_keyword;
+
+public class Vehicle {
+    
+    String color;
+    double weight ;
+    
+    
+    
+    Vehicle(String c , double w)
+    {
+        color = c ;
+        weight = w ;
+        
+    }
+    
+    void attribute ()
+    {
+        System.out.println("Color :"+color);
+        System.out.println("Weight :"+weight);
+    }
+}
+
+
+
+
+
+/* Car */
+
+
+package super_keyword;
+
+
+public class Car extends Vehicle {
+    
+    
+    int gear ;
+
+    
+    Car(String c, double w, int g ) {
+
+      
+        super(c,w); // calling the constructor of Vehicle class
+         gear = g;
+         
+    }
+    
+    
+    @Override
+    void attribute ()
+    {
+        super.attribute();//calling the method of Vehicle class
+        System.out.println("Gear :"+gear);
+    }
+    
+}
+
+
+
+
+/* Test */
+
+
+
+
+package super_keyword;
+
+
+public class Test {
+    
+
+    public static void main(String[] args) {
+        
+        Car volbo = new Car("white",350,5);
+        
+      
+        volbo.attribute();
+        
+    }
+}
+
+
+
+

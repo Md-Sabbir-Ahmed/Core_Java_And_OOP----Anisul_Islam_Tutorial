@@ -1,0 +1,73 @@
+/* cel to far */
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class TemperatureDemo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input= new Scanner(System.in);
+        
+        double celsius , fahrenheit  ;
+        
+        
+        System.out.print("Celsius = ");
+        celsius = input.nextDouble();
+        fahrenheit = (1.8 * celsius ) + 32;
+        System.out.println("Fahrenheit = "+fahrenheit);
+    }
+}
+
+
+
+
+
+/* far to cel */
+
+
+
+
+package beginnerjava;
+
+
+
+import java.util.Scanner;
+
+
+
+
+
+public class TemperatureDemo {
+
+    
+
+    public static void main(String[] args) {
+
+        
+
+        Scanner input= new Scanner(System.in);
+
+        
+
+        double celsius , fahrenheit  ;
+
+        
+
+        
+
+        System.out.print("Fahrenheit = ");
+
+        fahrenheit = input.nextDouble();
+
+        celsius = 5.0/9 * (fahrenheit - 32);
+
+        System.out.println("Celsius = "+celsius);
+
+    }
+
+}
+

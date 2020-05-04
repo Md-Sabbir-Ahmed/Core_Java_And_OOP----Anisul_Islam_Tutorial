@@ -1,0 +1,36 @@
+
+package string_package;
+
+import java.util.Arrays;
+
+public class StringDemo5 {
+    
+    public static void main(String[] args) {
+ 
+        String s1 = ("Sabbir");
+        
+        // for different methods there is no need to create a new string for stringbuffer 
+        StringBuffer sb = new StringBuffer(s1);
+        System.out.println(sb);
+
+        // adding strings with the original one
+        sb.append(" Ahmed");
+        System.out.println(sb);
+        
+        //deleting character
+        
+        sb.delete(0, 4);
+        System.out.println(sb);
+        
+        
+        //reversing the string 
+        
+        sb.reverse();
+        System.out.println(sb);
+        
+        //triming character 
+        
+        sb.setLength(5);
+        System.out.println(sb);
+    }
+}

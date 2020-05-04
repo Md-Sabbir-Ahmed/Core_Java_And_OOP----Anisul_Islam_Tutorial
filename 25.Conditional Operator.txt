@@ -1,0 +1,70 @@
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class ConditionalOperatorDemo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        int num1 ,num2 ,large;
+        System.out.print("Enter two numbers ");
+        
+        num1= input.nextInt();
+        num2= input.nextInt();
+        
+        
+        large = (num1>num2) ? num1 : num2 ;
+        
+        System.out.println("Large number "+large);
+        
+        
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+/*   pos neg check */
+
+
+
+
+package beginnerjava;
+
+import java.util.Scanner;
+
+
+public class ConditionalOperatorDemo {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        String result;
+        int num1 ;
+        System.out.print("Enter  a number ");
+        
+        num1= input.nextInt();
+       
+        
+        
+        result = (num1>0) ? "Positive" : "Negative" ;
+        
+        System.out.println("The number is "+result);
+        
+        
+        
+        
+    }
+    
+    
+    
+}

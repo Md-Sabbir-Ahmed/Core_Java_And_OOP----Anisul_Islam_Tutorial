@@ -1,0 +1,55 @@
+package Array_Demo;
+
+import java.util.ArrayList;
+
+
+
+
+
+
+public class ArrayListDemo2{
+
+    public static void main(String[] args) {
+
+  
+        ArrayList <Integer> number = new ArrayList<>();
+  
+        
+        
+        
+        number.add(10);
+        number.add(20);
+        number.add(30);
+        number.add(3,40);
+        
+        System.out.println("ArrayList values "+number);
+        
+        boolean check = number.isEmpty();
+        System.out.println("ArrayList Empty : "+check);
+        
+        
+         boolean contain = number.contains(30);
+        System.out.println("30 is in the list : "+contain);
+        
+        
+        int pos = number.indexOf(40);
+        System.out.println("The index of 40 is : "+pos);
+        
+        number.set(3,50);
+        System.out.println("After Replacing value "+number);
+        
+        int x= number.get(0);
+        System.out.println("Index [0] = "+x);
+        
+        number.clear();
+        
+        System.out.println("After Clear ArrayList contains "+number);
+    
+         check = number.isEmpty();
+        System.out.println("ArrayList Empty : "+check);
+        
+        
+        
+    }
+
+}

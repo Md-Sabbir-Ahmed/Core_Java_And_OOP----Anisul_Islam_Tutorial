@@ -1,0 +1,28 @@
+
+package string_package;
+
+import java.util.Arrays;
+
+public class StringDemo7 {
+    
+    public static void main(String[] args) {
+ 
+        //creating string builder 
+        
+        StringBuilder str = new StringBuilder("Sabbir");
+        System.out.println("Str = "+str);
+        
+        
+        str.append("Ahmed");
+        
+        str.append(46);
+        
+        System.out.println("After using append = "+str);
+        str.reverse();
+        System.out.println("After using reverse = "+str);
+        
+        str.delete(2, 5);
+        System.out.println("After using delete = "+str);
+
+   }
+}

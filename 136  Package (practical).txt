@@ -1,0 +1,158 @@
+//process 01 (Best way )
+package animal1;
+
+import java.util.Scanner;
+
+
+public class Dog {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+    }
+}
+
+//process 02 ( not recommended )
+
+/* 
+
+package animal1;
+
+import java.util.*;
+
+
+public class Dog {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+    }
+}
+
+*/
+
+
+//process 03 ( not recommended )
+
+/* 
+
+package animal1;
+
+
+
+public class Dog {
+    public static void main(String[] args) {
+        
+        java.util.Scanner input = new java.util.Scanner(System.in);
+    }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+/* 01 */
+
+package animal1;
+
+import animal2.Cow ; // user defined package import
+import animal2.Donkey ; // user defined package import
+
+import java.util.Scanner ; // build-in package import 
+
+
+public class Dog {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        Cat cat = new Cat();
+// possible because they are in same package
+
+
+        Cow cow = new Cow(); //
+        Donkey donkey = new Donkey();
+// directly not possible because they are in different package
+// firstly we have to import Cow class & Donkey class  from animal2 package 
+        
+    }
+}
+
+
+
+
+/* 02 */
+
+
+package animal1;
+
+
+public class Cat {
+    
+    public static void main(String[] args) {
+               
+        
+        Dog dog1 = new Dog();// Animal1 package - Dog class
+
+        animal2.Dog dog2 = new animal2.Dog();// Animal2 package - Dog class
+
+    }
+}
+
+
+
+
+
+/* 03 */
+
+
+
+package animal2;
+
+
+public class Dog {
+    
+}
+
+
+
+
+
+/* 04 */
+
+
+package animal2;
+
+
+public class Cow {
+    
+}
+
+
+
+
+/* 05 */
+
+
+
+package animal2;
+
+
+public class Donkey {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

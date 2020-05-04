@@ -1,0 +1,32 @@
+
+package Array_Demo;
+
+
+public class Array1 {
+
+    public static void main(String[] args) {
+      
+        
+        int [] number= new int[5];
+        int [] number2= new int[2];
+       
+        number[0]=10;
+        number[1]=20;
+    
+        number2[0]=1;
+        number2[1]=2;
+        
+        
+        System.out.println(number[0]);
+        
+        int len = number.length;
+        
+        System.out.println("Array size "+len);
+        
+        
+        int sum=number2[0]+number2[1];
+        
+        System.out.println("Sum is "+sum);
+    }
+    
+}

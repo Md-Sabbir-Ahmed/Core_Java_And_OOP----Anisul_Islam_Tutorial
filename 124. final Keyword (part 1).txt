@@ -1,0 +1,56 @@
+/* 01 */
+
+
+
+package final_keyword;
+
+
+public class University {
+    
+   final  String UNI_NAME ="AUST" ; // final variable can't be modified , it's constant
+   final int fees ; // blank final variable 
+   static final int year ; // static blank final variable 
+   
+   static
+   {
+       year = 2020;// static blank final variable can be initialize using static block
+   }
+   
+   University()
+   {
+       fees = 102500 ; // blank final variable can be initialize using constructor
+   }
+   
+   
+   
+    void display()
+    {
+        
+        System.out.println("University name "+UNI_NAME);
+        System.out.println("Semister fees "+fees);
+        System.out.println("Year "+year);
+    }
+}
+
+
+
+
+
+/* 02 */
+
+
+
+package final_keyword;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        University ob = new University();
+        
+        ob.display();
+        
+        
+    }
+}

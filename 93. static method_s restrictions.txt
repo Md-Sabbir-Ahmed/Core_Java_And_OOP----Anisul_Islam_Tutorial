@@ -1,0 +1,46 @@
+/* 01 */
+
+
+package static_method;
+
+
+public class StaticMethod {
+    
+    static int x=10;// static variable
+    void display1()
+    {
+       // display2(); 
+      // non static method can call  static method + static variable
+        
+       
+
+        System.out.println("I am not static method ");
+    }
+    
+    
+     
+       static void display2()
+    {
+       // display1(); 
+      // static method can't call non static method + non static variable 
+        System.out.println(x);
+        System.out.println("I am  static method ");
+    }
+}
+
+
+
+/* 02 */
+
+
+
+package static_method;
+
+public class Test {
+    
+    public static void main(String[] args)
+    {
+        StaticMethod.display2();
+    }
+}
+

@@ -1,0 +1,116 @@
+/* 01 */
+
+
+
+package modifier1;
+
+
+public class A {
+
+
+    private void display()
+// private(method/variable/constructor) member 
+// no other class,package  can use this method 
+    {
+        System.out.println("Hi");
+    }
+    
+ public void display1()
+// public(method/variable/constructor) member
+// other class can use this method but if classes from other package wants to use this
+// then firstly they have to import class A 
+ {
+     System.out.println("Hello");
+ }
+ 
+ protected void display2() 
+//protected(method/variable/constructor) member
+// other classes present in the same packages can use this method but classes from 
+// other packages can't directly use this method , to use this method in other package 
+// firstly we have to inherite the class A then we can use it . 
+ {
+     System.out.println("Hey");
+ }
+    
+ 
+ void display3()
+// default(method/variable/constructor) 
+// other classes present in the same package 
+// can use this method but classes from other packages can't use it in any condition
+ {
+     System.out.println("Hola");
+ }
+    
+}
+
+
+
+
+
+
+/* 02 */
+
+
+package modifier1;
+
+
+public class B {
+    
+    
+    
+}
+
+
+
+
+/* 03 */
+
+
+package modifier1;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        A ob = new A();
+        
+        ob.display1(); // public
+        
+        ob.display2(); // protected 
+        
+        ob.display3(); // default 
+    }
+}
+
+
+
+
+
+
+/* 04 */
+
+
+package modifier2;
+
+import modifier1.A ;
+
+public class C extends A{
+    public static void main(String[] args) {
+        
+
+        A ob = new A();
+        
+        
+        ob.display1(); // public member 
+        
+        
+        C ob1 = new C();
+        
+        ob1.display2(); // protected member
+    }
+}
+
+
+
+

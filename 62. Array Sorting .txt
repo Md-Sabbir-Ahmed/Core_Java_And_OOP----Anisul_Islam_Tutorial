@@ -1,0 +1,50 @@
+package Array_Demo;
+
+import java.util.Arrays;
+
+
+
+public class Array12{
+
+    public static void main(String[] args) {
+
+  
+        int [] A = {10,-3,18,5,25};
+        String [] B = {"OMOR","TANMOY","MIZAN","AHNAF"};
+        
+        Arrays.sort(A);
+        Arrays.sort(B);
+        System.out.println("Number Ascending Order = ");
+        
+        for (int row = 0; row < 5; row++) {
+            
+            System.out.print(" "+A[row]);
+        }
+        
+        
+         System.out.println("\n\n");
+        System.out.println("Number Descending Order = ");
+
+        
+        for (int row = 4; row>=0; row--) {
+            
+            System.out.print(" "+A[row]);
+        }
+        System.out.println("\n\n");
+        System.out.println("String Ascending Order = ");
+        
+        for (int row = 0; row <4; row++) {
+            System.out.print(" "+B[row]);
+        }
+        System.out.println("\n\n");
+        System.out.println("String Descending Order = ");
+        
+        for (int row = 3; row>=0; row--) {
+            System.out.print(" "+B[row]);
+        }
+        
+        System.out.println("\n\n");
+    }
+
+}
+

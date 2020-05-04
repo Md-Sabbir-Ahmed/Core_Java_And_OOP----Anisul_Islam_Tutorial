@@ -1,0 +1,53 @@
+
+package string_package;
+
+
+public class StringDemo8 {
+    public static void main(String[] args) {
+        
+    
+        //integer to string 
+        int i=100;
+        String s = Integer.toString(i);
+        System.out.println("s = "+s);
+        
+        
+    
+        //double to string 
+        double j=100.25;
+        String t = Double.toString(j);
+        System.out.println("t = "+t);
+        
+        
+        
+        
+    
+        //boolean to string 
+        boolean b= true;
+        String k = Boolean.toString(b);
+        System.out.println("k = "+k);
+        
+        
+        //string to integer 
+        String a = "32";
+        int c= Integer.parseInt(a); // method 01
+        System.out.println("[Method 01] c = "+c);
+        
+         c= Integer.valueOf(a); //method 02
+         System.out.println("[Method 02] c = "+c);
+        
+        //string to double 
+        String p = "31";
+        double w = Double.parseDouble(p); // method 01
+        System.out.println("[Method 01] w = "+w);
+        
+         
+        w = Double.valueOf(p);  // method 02
+        System.out.println("[Method 02] w ="+w);
+        
+    }
+    
+    
+    
+    
+}

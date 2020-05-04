@@ -1,0 +1,23 @@
+
+package randomtest;
+
+import java.util.Random;
+
+
+public class RandomDemo {
+    public static void main(String[] args) {
+
+        // Using Random class
+        
+        Random rand = new Random();
+       
+        int randomNumber = rand.nextInt(100) +1 ;// 1 to 100 random number generate
+        System.out.println("Using Random class = "+randomNumber);
+        
+        //Using Math class
+        
+        randomNumber = (int) (Math.random()*6)+5;// 5 to 10 random number generate
+        System.out.println("Using Math class = "+randomNumber);
+    }
+    
+}

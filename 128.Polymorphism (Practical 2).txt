@@ -1,0 +1,119 @@
+/* 01 */
+
+
+package polymorphism;
+
+public class Shape {
+    
+    double area()
+    {
+        System.out.print("Area for Shape : ");
+        return 0 ;
+    }
+}
+
+/* 02 */
+
+
+package polymorphism;
+
+
+public class Rectangle extends Shape {
+    
+    double length , width ;
+    
+    Rectangle(double length , double width)
+    {
+        this.length = length ;
+        this.width = width ;
+    }
+    
+    @Override
+    double area()
+    {
+        System.out.print("Area for Rectangle: ");
+
+        return length * width ;
+    }
+}
+
+
+
+/* 03 */
+
+
+
+package polymorphism;
+
+public class Triangle extends Shape {
+    
+    double base , height ;
+    
+    Triangle(double base , double height)
+    {
+        this.base = base ;
+        this.height = height ;
+    }
+    
+    @Override
+    double area()
+    {
+        System.out.print("Area for Triangle: ");
+
+        return 0.5 * base * height ;
+    }
+}
+
+
+
+/* 04 */
+
+
+package polymorphism;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+//Run time polymorphism / dynamic method dispatch
+// without using Array 
+       Shape s1 = new Shape();
+//Shape class (super class) reference variable refering Shape class( super class) object
+       Shape s2 = new Rectangle(10 , 20 );
+//Shape class (super class) reference variable refering Rectangle class( sub class) object
+
+       Shape s3 = new Triangle(10 , 20 );
+//Shape class (super class) reference variable refering Triangle class( sub class) object
+
+ 
+        
+        System.out.println(s1.area());    
+        System.out.println(s2.area());
+        System.out.println(s3.area());
+        
+        System.out.println("\n\n");
+        
+ //Run time polymorphism / dynamic method dispatch
+//using Array    
+       Shape[] w = new Shape[3];
+       
+        w[0]= new Shape();
+//Shape class (super class) reference variable refering Shape class( super class) object
+
+        w[1]=new Rectangle(15,25);
+//Shape class (super class) reference variable refering Rectangle class( sub class) object
+
+        w[2]=new Triangle(15,25);
+//Shape class (super class) reference variable refering Triangle class( sub class) object
+
+        
+        for(int i=0 ; i<3 ;i++)
+        {
+            System.out.println(w[i].area());
+        }
+        
+    }
+}
+
+
+

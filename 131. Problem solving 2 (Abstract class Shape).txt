@@ -1,0 +1,134 @@
+/* 01  */
+
+
+package problem_solving;
+
+
+public abstract class Shape {
+    
+    double dim1 , dim2 ;
+    
+    Shape(double dim1 , double dim2)
+    {
+        this.dim1 = dim1 ;
+        this.dim2 = dim2 ;
+        
+    }
+    
+    abstract void area();
+}
+
+
+
+/* 02 */
+
+
+
+package problem_solving;
+
+public class Rectangle extends Shape {
+
+     Rectangle(double dim1, double dim2) {
+        super(dim1, dim2);
+    }
+    
+  
+  
+    @Override
+    void area()
+    {
+        double result =  dim1 * dim2 ;
+        System.out.println("Rectangle Area = "+result);
+    }
+}
+
+
+
+
+/* 03 */
+
+
+package problem_solving;
+
+public class Triangle extends Shape {
+    
+    
+    
+    
+     Triangle(double dim1, double dim2) {
+        super(dim1, dim2);
+    }
+    
+  
+  
+    @Override
+    void area()
+    {
+        double result =  0.5 *dim1 * dim2 ;
+        System.out.println("Triangle Area = "+result);
+    }
+}
+
+
+
+
+/* 04 */
+
+
+
+
+package problem_solving;
+
+
+public class Circle extends Shape {
+    
+    Circle(double r) {
+        
+        super(r,r);
+    }
+    
+  
+  
+    @Override
+    void area()
+    {
+        double result =  Math.PI *dim1 *dim2 ;
+        System.out.println("Circle Area = "+result);
+    }
+}
+
+
+
+
+/* 05 */
+
+
+
+package problem_solving;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Shape s;
+//Shape class(super class) - it is an abstract class , so object can't be created 
+        
+        s = new Rectangle(10,20);
+//Shape class (super class) and  s(it's reference variable) refering Rectangle class(sub class) object 
+
+        s.area();
+        
+        
+        s= new Triangle(10,20);
+//Shape class (super class) and  s(it's reference variable) refering Triangle class(sub class) object 
+
+        s.area();
+
+        s= new Circle(10);
+//Shape class (super class) and  s(it's reference variable) refering Circle class(sub class) object 
+
+        s.area();
+
+    }
+}
+

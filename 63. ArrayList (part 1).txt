@@ -1,0 +1,103 @@
+/* 1*/
+
+
+package Array_Demo;
+
+import java.util.ArrayList;
+
+
+
+
+
+public class ArrayListDemo1{
+
+    public static void main(String[] args) {
+
+  
+        ArrayList <Integer> number = new ArrayList<>();
+  
+        
+        
+        
+        number.add(10);
+        number.add(20);
+        number.add(30);
+        number.add(3,40);
+        
+        
+        System.out.println("Size = "+number.size());
+
+        
+        System.out.println(number);
+        
+        
+        number.remove(2);
+        
+        System.out.println("Size After removing a element  = "+number.size());
+
+        System.out.println(number);
+        
+        
+        number.removeAll(number);
+
+        
+         System.out.println("Size After removing all  element  = "+number.size());
+
+        System.out.println(number);
+    }
+
+}
+
+
+
+
+
+/* 2 */
+
+
+
+package Array_Demo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+
+
+
+
+public class ArrayListDemo2{
+
+    public static void main(String[] args) {
+
+  
+        ArrayList <Integer> number = new ArrayList<>();
+  
+        
+        
+        
+        number.add(10);
+        number.add(20);
+        number.add(30);
+        number.add(3,40);
+        
+        System.out.println("for each loop ");
+        
+        for(int i : number )
+        {
+            System.out.print(i+" ");
+        }
+        
+        System.out.println("\n\n ");
+        System.out.println("iterator ");
+ 
+        Iterator itr = number.iterator();
+        while(itr.hasNext())
+        {
+            System.out.print(itr.next()+" ");
+        }
+        
+        System.out.println("\n");
+    }
+
+}
+

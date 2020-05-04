@@ -1,0 +1,55 @@
+/* 01 */
+
+
+package interface_demo;
+
+public interface A {
+    
+    void play();
+}
+
+
+/* 02 */
+
+
+package interface_demo;
+
+public interface B {
+    
+    void play();
+}
+
+
+/* 03 */
+
+
+package interface_demo;
+
+
+public class C implements A,B {
+    
+    @Override
+    public void play()
+    {
+        System.out.println("Hello , I am from C");
+    }
+}
+
+
+
+
+/* 04 */
+
+
+package interface_demo;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        C ob = new C();
+        
+        ob.play();
+    }
+}
+

@@ -1,0 +1,38 @@
+
+package number_conversion;
+
+import java.util.Scanner;
+
+
+public class NumberConversionDemo {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+   
+        int decimal ;
+        System.out.print("Enter any Decimal Number : ");
+        decimal = input.nextInt();
+        
+        //decimal to binary 
+        
+        String  binary = Integer.toBinaryString(decimal);
+        System.out.println("Decimal to Binary "+binary);
+        
+        
+        
+        //decimal to octal
+        
+        String  octal = Integer.toOctalString(decimal);
+        System.out.println("Decimal to Octal "+octal);
+        
+        
+        
+        //decimal to hexadecimal
+        
+        String  hexadecimal = Integer.toHexString(decimal);
+        System.out.println("Decimal to Hexadecimal "+hexadecimal);
+        
+        
+    }
+    
+}

@@ -1,0 +1,66 @@
+/* 01 */
+
+package overloading_constructor;
+
+public class Student {
+    
+    String name , gender;
+    int reg;
+    
+    
+    Student()
+    {
+        System.out.println("No information");
+    }
+    
+    Student(String n , String g)
+    {
+        name = n;
+        gender = g;
+    }
+    Student(String n , String g , int p)
+    {
+        name= n;
+        gender = g;
+        reg = p;
+        
+    }
+    
+    void displayInformation()
+    {
+        System.out.println("Name :"+name);
+        System.out.println("Gender :"+gender);
+        System.out.println("Reg :"+reg);
+        System.out.println("\n");
+    }
+}
+
+
+
+/* 02 */
+
+
+
+package overloading_constructor;
+
+public class Overloading_Test {
+    
+    public static void main(String[] args) {
+        
+        
+        Student student1 = new Student();
+        
+        
+        Student student2 = new Student("Sabbir","Male");
+        student2.displayInformation();
+        
+        Student student3 = new Student("Sabbir","Male",46);
+        student3.displayInformation();
+        
+        
+        
+    }
+}
+
+
+

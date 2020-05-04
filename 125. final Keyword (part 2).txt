@@ -1,0 +1,60 @@
+/* 01 */
+
+
+package final_keyword;
+
+
+public class University {
+    
+   
+   final void display()
+    {
+          System.out.println("University info");
+    }
+    
+        
+        
+}
+
+
+/* 02 */
+
+
+package final_keyword;
+
+// final class can't be inherited 
+public class Student extends University {
+    
+        //final method can't be overridden but it can be inherited 
+        void display2()
+    {
+          System.out.println("Student info");
+    }
+    
+    
+    
+    
+}
+
+
+
+
+/* 03 */
+
+package final_keyword;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+
+         Student s1 = new Student();
+         
+         
+        s1.display();
+        s1.display2();
+        
+    }
+}
+

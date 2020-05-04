@@ -1,0 +1,54 @@
+/* 1st part */
+
+
+package varargs;
+
+
+public class AddDemo {
+    
+    
+    void add(int ... num)
+    {
+       int sum = 0;
+       for(int x : num)
+       {
+           sum = sum+x;
+       }
+       
+        System.out.println(sum);
+       
+       
+    }
+    
+    
+   
+    
+    
+    
+}
+
+
+
+
+
+
+/* 2nd part */
+
+
+package varargs;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        AddDemo ob = new AddDemo();
+        
+        ob.add(10, 20);
+        ob.add(10, 20, 30);
+        ob.add(10, 20, 30 ,40,50);
+    }
+            
+}
+
+

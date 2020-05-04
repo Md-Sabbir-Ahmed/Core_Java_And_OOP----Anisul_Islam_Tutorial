@@ -1,0 +1,43 @@
+/* 01 */
+
+
+package this_keyword;
+
+public class Person {
+    
+    
+  
+    void messege()
+    {
+        System.out.println("I am messege method");
+    }
+
+    
+    void display()
+    {
+        this.messege();// if we don't give "this" method , it will be used defaultly 
+        System.out.println("I am display method");
+    }
+}
+ 
+
+
+/* 02 */
+
+
+
+package this_keyword;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+  
+        Person p1 = new Person();
+        
+        p1.display();
+        
+    }
+}
+
+

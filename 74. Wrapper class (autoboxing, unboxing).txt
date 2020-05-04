@@ -1,0 +1,39 @@
+
+package oop;
+
+
+public class WrapperDemo {
+    
+    public static void main(String[] args) {
+ 
+        // primitive to object 
+        int x=30;
+        System.out.println("x = "+x);
+       // using valueOf method converting from  primitive to object
+
+        Integer y= Integer.valueOf(x);
+        System.out.println("y = "+y);
+        
+       //without  using valueOf method converting from  primitive to object
+
+        Integer z= x;// Integer.valueOf(x) // autoboxing
+        System.out.println("z = "+z);
+        
+        
+        // object to primitive
+        
+        Double d= new Double(10.25);
+        System.out.println("d = "+d); 
+        
+        // using doubleValue method converting from object to primitive
+        double e = d.doubleValue();
+        System.out.println("e = "+e);
+        
+        //without  using doubleValue method converting from object to primitive
+
+        double f = d;// d.doubleValue() //unboxing 
+        System.out.println("f = "+f);
+        
+   }
+    
+}

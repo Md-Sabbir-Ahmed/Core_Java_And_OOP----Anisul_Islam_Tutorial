@@ -1,0 +1,53 @@
+/* 1 */
+
+
+
+package Array_Demo;
+
+
+
+public class Array4 {
+
+    public static void main(String[] args) {
+
+
+
+        String[] names= {"Mizan","Ahnaf","Omor","Tanmoy"};
+        
+        for(String x: names)
+        {
+            System.out.println(x);
+        }
+    }
+
+}
+
+
+
+
+
+
+/* 2 */
+
+package Array_Demo;
+
+
+
+public class Array5 {
+
+    public static void main(String[] args) {
+
+       
+
+        int[] num={1,2,3,4,5};
+        int sum=0;
+        
+        for(int x: num)
+        {
+           sum=sum+x;
+        }
+        
+        System.out.println(sum);
+    }
+
+}

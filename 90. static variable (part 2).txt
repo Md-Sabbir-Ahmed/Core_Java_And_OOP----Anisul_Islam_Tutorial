@@ -1,0 +1,35 @@
+/* 01 */
+
+
+package static_variable;
+
+public class StaticVariable {
+    
+     String  UniName = "AUST";
+    
+    
+    
+    static String  Dept = "CSE";
+    
+}
+
+
+/* 02 */
+
+
+package static_variable;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        // need to create object for instance/non-static  variable 
+        StaticVariable ob = new StaticVariable();
+        System.out.println(ob.UniName);        
+        
+        // no need to create object for static variable 
+        System.out.println(StaticVariable.Dept);
+    }
+}
+

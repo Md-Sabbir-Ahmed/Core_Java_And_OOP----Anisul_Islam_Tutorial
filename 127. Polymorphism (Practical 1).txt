@@ -1,0 +1,85 @@
+/* 01 */
+
+
+package polymorphism;
+
+public class Person {
+    
+    
+    void display()
+    {
+        System.out.println("I am a Person");
+    }
+    
+}
+
+
+/* 02 */
+
+
+package polymorphism;
+
+public class Teacher extends Person{
+    
+    
+        @Override
+        void display()
+    {
+        System.out.println("I am a Teacher");
+    }
+    
+}
+
+
+
+/* 03 */
+
+
+
+package polymorphism;
+
+
+public class Student extends Person {
+    
+        @Override
+        void display()
+    {
+        System.out.println("I am a Student");
+    }
+    
+}
+
+
+
+/* 04 */
+
+
+package polymorphism;
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        Person p = new Person();
+//Person class(super class) reference variable refering Person class(super class) object  
+
+        p.display();
+
+        p= new Teacher(); 
+//Person class(super class) reference variable refering Teacher class(sub class) object 
+
+        p.display();
+
+        p = new Student();
+//Person class(super class) reference variable refering Student class(sub class) object  
+
+        p.display();
+
+        
+        
+    }
+}
+
+
+
+

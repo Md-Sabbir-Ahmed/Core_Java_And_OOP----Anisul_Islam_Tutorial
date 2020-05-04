@@ -1,0 +1,23 @@
+/*
+
+   multi line comment
+
+*/
+package basicjava;
+/**
+
+    documentational comment
+
+*/
+public class CommentDemo {
+    
+    public static void main(String[] args)
+    {
+        
+        
+        System.out.println("Java");  //Single line comment
+        
+        
+    }
+    
+}

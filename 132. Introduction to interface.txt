@@ -1,0 +1,76 @@
+/* 01 */
+
+
+package interface_demo;
+
+public interface Animal {
+    
+    public abstract void eat();
+}
+
+
+/* 02 */
+
+
+
+package interface_demo;
+
+
+public class Dog implements Animal {
+    
+    @Override
+    public void eat()
+    {
+        System.out.println("Dogs can eat egg");
+        
+    }
+    
+}
+
+
+
+
+/* 03 */
+
+package interface_demo;
+
+
+public class Cat implements Animal{
+    
+    @Override
+    public void eat()
+    {
+        System.out.println("Cats can eat meat");
+    }
+}
+
+
+
+
+/* 04 */
+
+
+package interface_demo;
+
+
+public class Test {
+    
+    public static void main(String[] args) {
+        
+        
+
+        
+        Dog d = new Dog();
+//Dog class(sub class) reference variable refering Dog class(sub class) object
+        d.eat();
+        
+        Cat c = new Cat();
+//Cat class(sub class) reference variable refering Cat class(sub class) object
+
+        c.eat();
+        
+        
+    }
+}
+
+
